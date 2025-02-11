@@ -9,9 +9,8 @@ function LoginPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     // For simplicity, this just redirects.
-    // In production, authenticate via your backend here.
+    // In production, we can authenticate via your backend here. @Rishi
     if (email && password) {
-      // You could further check role here.
       router.push('/user');
     }
   };

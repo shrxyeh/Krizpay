@@ -11,7 +11,7 @@ function MerchantPage() {
     // Create a JSON string with payment details.
     const data = JSON.stringify({ amount, currency });
     setQrData(data);
-    // In production, you might store this transaction and notify your backend.
+    // In production, we can store this transaction and notify your backend.
   };
 
   return (

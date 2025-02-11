@@ -11,7 +11,7 @@ function UserPage() {
   const handleScan = (data) => {
     if (data) {
       setQrResult(data);
-      // You might want to call your backend here to process the payment
+      // backend here to process the payment
     }
   };
 
